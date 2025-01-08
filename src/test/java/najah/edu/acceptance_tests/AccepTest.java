@@ -1,5 +1,4 @@
 package najah.edu.acceptance_tests;
-
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -16,5 +15,7 @@ import io.cucumber.junit.CucumberOptions;
         snippets = CucumberOptions.SnippetType.CAMELCASE, // Use camelCase for step definitions
         glue = "najah.edu.step_definitions" // Path to step definitions
 )
+
 public class AccepTest {
+
 }
