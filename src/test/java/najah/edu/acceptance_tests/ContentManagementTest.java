@@ -38,9 +38,6 @@ public class ContentManagementTest {
         }
     }
 
-    // -------------------------------------------------------------
-    // 1) Minimal test for manageContent(...) => choose "5" to exit
-    // -------------------------------------------------------------
     @Test
     @Order(1)
     @DisplayName("manageContent(): choose 5 => exit immediately")
