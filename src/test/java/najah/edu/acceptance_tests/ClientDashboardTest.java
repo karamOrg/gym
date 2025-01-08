@@ -32,14 +32,14 @@ public class ClientDashboardTest {
 
     @BeforeEach
     void setupEach() throws IOException {
-        // Create users file if it doesn't exist
+       
         if (!usersFile.exists()) {
             assertTrue(usersFile.createNewFile(), "Users file should be created successfully");
         } else {
             new PrintWriter(usersFile).close(); // Clear contents
         }
 
-        // Create articles file if it doesn't exist
+       
         if (!articlesFile.exists()) {
             assertTrue(articlesFile.createNewFile(), "Articles file should be created successfully");
         } else {
